@@ -53,7 +53,7 @@ Para garantir a robustez dos resultados relatados:
 | Métrica | Resultado Médio | Meta |
 | :--- | :--- | :--- |
 | **F1-Score** | **0.90** | 0.93 |
-![Neos.v4.0]([https://raw.githubusercontent.com/Umbura/Hatespeech_Detection_Civil_Comments_NLP/refs/heads/main/assets/resultado_2_classes.png](https://raw.githubusercontent.com/Umbura/Hatespeech_Detection_Civil_Comments_NLP/refs/heads/main/assets/resultado_neos_v4.png))
+![Neos.v4.0](https://github.com/Umbura/Hatespeech_Detection_Civil_Comments_NLP/blob/main/assets/resultado_neos_v4.png)
 
 
 
