@@ -3,7 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SEU_USUARIO/NOME_DO_REPOSITORIO/blob/main/Toxicidade_Civil_Comments_NLP.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
-![Status](https://img.shields.io/badge/Status-F1_Score_0.91-green)
+![Status](https://img.shields.io/badge/Status-F1_Score_0.90-green)
 
 O projeto **Neos** é um modelo de Deep Learning de alta performance desenvolvido para a detecção e classificação de discurso de ódio, com foco inicial na distinção entre as classes *"insulto"* e *"ameaça"* do dataset **Civil Comments**.
 
