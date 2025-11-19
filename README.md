@@ -5,9 +5,10 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 ![Status](https://img.shields.io/badge/Status-F1_Score_0.90-green)
 
-O projeto **Neos** é um modelo de Deep Learning de alta performance desenvolvido por mim, para a detecção e classificação de discurso de ódio, com foco inicial na distinção entre as classes *"insulto"* e *"ameaça"* do dataset **Civil Comments**.
+O projeto **Neos** é um modelo de Deep Learning de alta performance desenvolvido por mim, com o objetivo de não apenas detectar, mas classificar o tipo do discurso de ódio praticado.
+Inicialmente foi focado nas classes *"insult"* e *"threat"*, mas posteriormente foi expandido para todas as classes do dataset **Civil Comments**.
 
-A principal inovação do Neos reside em sua **arquitetura híbrida paralela CNN + Bi-LSTM ou GRU e na decisão estratégica de **não utilizar embeddings pré-treinados**, permitindo que o modelo aprenda gírias e termos ofuscados específicos do vocabulário tóxico.
+A principal inovação do Neos reside em sua **arquitetura híbrida paralela CNN + Bi-LSTM** e na decisão estratégica de **não utilizar embeddings pré-treinados**, permitindo que o modelo aprenda gírias e termos ofuscados específicos do vocabulário tóxico em qualquer idioma.
 
 ## Evolução do Projeto "Neos"
 
@@ -29,15 +30,15 @@ O desenvolvimento seguiu uma metodologia iterativa baseada em falhas e aprendiza
 *   **Resultado:** Superou a meta de 90% de acurácia, atingindo **F1-Score de ~0.91** em duas classes threat e insult.
 ![Neos.v3.0]()
 
-## Arquitetura Final (em andamento)
+## Arquitetura atual (em andamento)
 
 O modelo atua como um "comitê de especialistas", processando a entrada de texto simultaneamente em dois ramos:
 
 1.  **Input & Embedding:** Camada de Embedding treinada do zero (sem pesos pré-treinados como GloVe ou Word2Vec) para capturar nuances específicas do dataset.
-2.  **Ramo Contextual (Bi-LSTM ou GRU):** Foca no entendimento do contexto e na ordem sequencial das palavras.
+2.  **Ramo Contextual (Bi-LSTM):** Foca no entendimento do contexto e na ordem sequencial das palavras.
 3.  **Ramo de Padrões (Multi-Kernel CNN):** Foca na detecção de *n-gramas* e palavras-chave tóxicas (padrões locais), independentemente de sua posição.
 4.  **Fusão e Classificação:** As saídas dos dois ramos são concatenadas, oferecendo uma visão rica e diversificada para a camada densa final.
-
+> *Nota do Autor: Além de Bi-LSTM, testei o modelo com GRU, mas não houve melhoria de desempenho significativa, ficando a meu critério utilizar LSTM.*
 ## Engenharia de Dados e Treinamento
 
 Para garantir a robustez dos resultados relatados:
@@ -73,5 +74,5 @@ Este projeto foi fundamentado nas seguintes obras:
 
 ### Instalação
 ```bash
-git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+git clone https://github.com/Umbura/Hatespeech_Detection_Civil_Comments_NLP.git
 pip install -r requirements.txt
