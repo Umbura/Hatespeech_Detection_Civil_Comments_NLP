@@ -53,7 +53,7 @@ Para garantir a robustez dos resultados relatados:
 | :--- | :--- | :--- |
 | **F1-Score** | **0.90** | 0.93 |
 
-> *Nota do Autor: O resultado de 0.90 é robusto, mas o projeto continua ativo com o objetivo de refinar a arquitetura para alcançar 0.93, além de validar o modelo em datasets em Português-BR.*
+> *Nota do Autor: O resultado de 0.90 é robusto, mas notei um problema em uma das classes do dataset, possivelmente esta está afetando os resultando que poderiam ser maiores. Contúdo meu projeto continua ativo com o objetivo de refinar a arquitetura para alcançar 0.93 no minimo, além de validar o modelo em datasets em Português-BR. O que acredito que será facil pela não utilização de embeddings.*
 
 ## Referências Bibliográficas
 
