@@ -28,7 +28,7 @@ O desenvolvimento seguiu uma metodologia iterativa baseada em falhas e aprendiza
 ### 3. Fase Intermediária (Neos: Híbrido Paralelo)
 *   **Solução:** Processamento simultâneo do texto em dois ramos distintos que convergem no final.
 *   **Resultado:** Superou a meta de 90% de acurácia, atingindo **F1-Score de ~0.91** em duas classes threat e insult.
-![Neos.v3.0]()
+![Neos.v3.0](https://raw.githubusercontent.com/Umbura/Hatespeech_Detection_Civil_Comments_NLP/refs/heads/main/assets/resultado_2_classes.png)
 
 ## Arquitetura atual (em andamento)
 
