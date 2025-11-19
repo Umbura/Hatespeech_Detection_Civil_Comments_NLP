@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-F1_Score_0.90-green)
 
 O projeto **Neos** é um modelo de Deep Learning de alta performance desenvolvido por mim, com o objetivo de não apenas detectar, mas classificar o tipo do discurso de ódio praticado.
-Inicialmente foi focado nas classes *"insult"* e *"threat"*, mas posteriormente foi expandido para todas as classes do dataset **Civil Comments**.
+Inicialmente foi focado em duas classes *"insult"* e *"threat"*, mas posteriormente foi expandido para todas as sete classes do dataset **Civil Comments**.
 
 A principal inovação do Neos reside em sua **arquitetura híbrida paralela CNN + Bi-LSTM** e na decisão estratégica de **não utilizar embeddings pré-treinados**, permitindo que o modelo aprenda gírias e termos ofuscados específicos do vocabulário tóxico em qualquer idioma.
 
