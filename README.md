@@ -53,6 +53,11 @@ Para garantir a robustez dos resultados relatados:
 | Métrica | Resultado Médio | Meta |
 | :--- | :--- | :--- |
 | **F1-Score** | **0.90** | 0.93 |
+![Neos.v4.0]([https://raw.githubusercontent.com/Umbura/Hatespeech_Detection_Civil_Comments_NLP/refs/heads/main/assets/resultado_2_classes.png](https://raw.githubusercontent.com/Umbura/Hatespeech_Detection_Civil_Comments_NLP/refs/heads/main/assets/resultado_neos_v4.png))
+
+
+
+
 
 > *Nota do Autor: O resultado de 0.90 é robusto, mas notei um problema em uma das classes do dataset, possivelmente esta está afetando os resultando que poderiam ser maiores. Contúdo meu projeto continua ativo com o objetivo de refinar a arquitetura para alcançar 0.93 no minimo, além de validar o modelo em datasets em Português-BR. O que acredito que será facil pela não utilização de embeddings.*
 
