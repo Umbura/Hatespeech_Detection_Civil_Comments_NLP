@@ -115,5 +115,5 @@ This project was grounded in the following works:
 git clone https://github.com/Umbura/Hatespeech_Detection_Civil_Comments_NLP.git
 pip install -r requirements.txt
 ```
-License
+### License
 Distributed under the MIT license. See the LICENSE file for more details.
