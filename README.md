@@ -27,9 +27,9 @@
 ---
 
 ## About
-Project **Neos** is a high-performance Deep Learning model developed to not only detect but also classify the type of hate speech being used. Initially focused on the *"insult"* and *"threat"* classes, the scope was expanded to all seven classes of the **Civil Comments** dataset.
+This Project is a high-performance Deep Learning model developed to not only detect but also classify the type of hate speech being used. Initially focused on the *"insult"* and *"threat"* classes, the scope was expanded to all seven classes of the **Civil Comments** dataset.
 
-The core innovation of Neos lies in its **parallel hybrid architecture (CNN + Bi-LSTM)** and the strategic decision **not to use pre-trained embeddings**. This allows the model to learn slang, neologisms, and obfuscated terms specific to toxic vocabulary in any language, without relying on static dictionaries.
+The core innovation lies in its **parallel hybrid architecture (CNN + Bi-LSTM)** and the strategic decision **not to use pre-trained embeddings**. This allows the model to learn slang, neologisms, and obfuscated terms specific to toxic vocabulary in any language, without relying on static dictionaries.
 
 ---
 
@@ -48,7 +48,7 @@ The development followed an iterative methodology based on failure analysis and 
 *   **Result:** Accuracy of ~86%.
 *   **Crucial Limitation:** The CNN layer filtered the text excessively, causing the subsequent recurrent layer to lose vital contextual information from the original phrase.
 
-### 3. Current Phase (Neos: Parallel Hybrid)
+### 3. Current Phase v3 (Parallel Hybrid)
 *   **Solution:** Simultaneous processing of text in two distinct branches that converge at the end.
 *   **Result:** Exceeded the 90% accuracy goal, reaching an **F1-Score of ~0.91** in critical classes (threat and insult).
 
@@ -114,3 +114,6 @@ This project was grounded in the following works:
 ```bash
 git clone https://github.com/Umbura/Hatespeech_Detection_Civil_Comments_NLP.git
 pip install -r requirements.txt
+```
+License
+Distributed under the MIT license. See the LICENSE file for more details.
