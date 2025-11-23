@@ -116,4 +116,4 @@ git clone https://github.com/Umbura/Hatespeech_Detection_Civil_Comments_NLP.git
 pip install -r requirements.txt
 ```
 ### License
-Distributed under the MIT license. See the LICENSE file for more details.
+Distributed under the APACHE 2.0 license. See the LICENSE file for more details.
