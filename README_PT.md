@@ -1,6 +1,6 @@
 <div align="center">
 
-# Neos: Detecção Híbrida de Discurso de Ódio
+# Detecção Híbrida de Discurso de Ódio
 
 ### Arquitetura Paralela CNN + Bi-LSTM
 
@@ -27,13 +27,13 @@
 ---
 
 ## Sobre o Projeto
-O projeto **Neos** é um modelo de Deep Learning de alta performance desenvolvido para não apenas detectar, mas classificar o tipo de discurso de ódio praticado. Inicialmente focado nas classes *"insult"* e *"threat"*, o escopo foi expandido para todas as sete classes do dataset **Civil Comments**.
+O projeto é um modelo de Deep Learning de alta performance desenvolvido para não apenas detectar, mas classificar o tipo de discurso de ódio praticado. Inicialmente focado nas classes *"insult"* e *"threat"*, o escopo foi expandido para todas as sete classes do dataset **Civil Comments**.
 
-A principal inovação do Neos reside em sua **arquitetura híbrida paralela (CNN + Bi-LSTM)** e na decisão estratégica de **não utilizar embeddings pré-treinados**. Isso permite que o modelo aprenda gírias, neologismos e termos ofuscados específicos do vocabulário tóxico em qualquer idioma, sem depender de dicionários estáticos.
+A principal inovação do projeto reside em sua **arquitetura híbrida paralela (CNN + Bi-LSTM)** e na decisão estratégica de **não utilizar embeddings pré-treinados**. Isso permite que o modelo aprenda gírias, neologismos e termos ofuscados específicos do vocabulário tóxico em qualquer idioma, sem depender de dicionários estáticos.
 
 ---
 
-## Evolução do Projeto "Neos"
+## Evolução do Projeto
 
 O desenvolvimento seguiu uma metodologia iterativa baseada em falhas e aprendizados:
 
@@ -48,7 +48,7 @@ O desenvolvimento seguiu uma metodologia iterativa baseada em falhas e aprendiza
 *   **Resultado:** Acurácia de ~86%.
 *   **Limitação Crucial:** A camada CNN filtrava excessivamente o texto, fazendo com que a camada recorrente subsequente perdesse informações contextuais vitais da frase original.
 
-### 3. Fase Atual (Neos: Híbrido Paralelo)
+### 3. Fase Atual (Híbrido Paralelo)
 *   **Solução:** Processamento simultâneo do texto em dois ramos distintos que convergem no final.
 *   **Resultado:** Superou a meta de 90% de acurácia, atingindo **F1-Score de ~0.91** nas classes críticas (threat e insult).
 
