@@ -18,7 +18,7 @@
 </p>
 
 <!-- MAIN IMAGE -->
-<img src="assets/resultado_neos_v4.png" alt="Neos V4 Results" width="100%">
+<img src="https://i.imgur.com/vtD1JsF.png" alt="Neos V4 Results" width="100%">
 
 *Current multiclass classification results on the Civil Comments dataset.*
 
